@@ -139,7 +139,7 @@ class CheckboxController extends BaseController
     public function update(Request $request, string $id)
     {
         $json = $request->input("json", null);
-        $params = json_decode($json);
+
         $params_array = json_decode($json, true);
 
 

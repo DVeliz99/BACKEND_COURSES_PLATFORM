@@ -271,6 +271,9 @@ class UserController extends Controller
                     'message' => $image_name
 
                 );
+
+                Storage::disk('users')->put($image_name, File::get($image));
+                Log::info('Imagen guardada en el disco users:', ['path' => storage_path('app/users') . '/' . $image_name]);
             }
         }
 

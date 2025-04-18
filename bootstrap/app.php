@@ -55,6 +55,8 @@ return Application::configure(basePath: dirname(__DIR__))
             'api/cart/*',
             'api/accordion/*',
             'api/accordion/upload',
+            '/api/checkbox/*',
+            '/api/checkbox/'
 
 
 

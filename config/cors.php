@@ -21,7 +21,7 @@ return [
 
     'allowed_origins' => ['https://courses-platform-frontend-nine.vercel.app'],
 
-    'allowed_origins_patterns' => ['~^https://courses-platform-frontend-nine\.vercel\.app/?$~'],
+    'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
